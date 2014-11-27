@@ -18,7 +18,7 @@
   <property name="pgsqlrootuser" value="postgres" />
   <property name="version" value="2.2.1" />
 
-  <!-- Main Target -->
+  <!---- Main Target -->
   <target name="main" description="main target">
     <phingcall target="startup" />
     <trycatch property="exceptionmsg">
